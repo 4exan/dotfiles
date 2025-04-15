@@ -1,0 +1,127 @@
+/* Keyframes */
+
+/* Styles */
+
+/* Colors (gruvbox) */
+@define-color rosewater #dc8a78;
+@define-color flamingo #dd7878;
+@define-color pink #ea76cb;
+@define-color mauve #8839ef;
+@define-color red #d20f39;
+@define-color maroon #e64553;
+@define-color peach #fe640b;
+@define-color yellow #df8e1d;
+@define-color green #40a02b;
+@define-color teal #179299;
+@define-color sky #04a5e5;
+@define-color sapphire #209fb5;
+@define-color blue #1e66f5;
+@define-color lavender #7287fd;
+@define-color text #4c4f69;
+@define-color subtext1 #5c5f77;
+@define-color subtext0 #6c6f85;
+@define-color overlay2 #7c7f93;
+@define-color overlay1 #8c8fa1;
+@define-color overlay0 #9ca0b0;
+@define-color surface2 #acb0be;
+@define-color surface1 #bcc0cc;
+@define-color surface0 #ccd0da;
+@define-color base #eff1f5;
+@define-color mantle #e6e9ef;
+@define-color crust #dce0e8;
+/* Reset all styles */
+* {
+  font-family: "JetBrains Mono Nerd Font", monospace;
+  font-size: 14px;
+  min-height: 0;
+}
+
+#waybar {
+  background: transparent;
+  color: @text;
+  margin: 2px 2px;
+}
+
+#workspaces {
+  border-radius: 1rem;
+  margin: 5px;
+  background-color: @base;
+  margin-left: 1rem;
+}
+
+#workspaces button {
+  color: @lavender;
+  border-radius: 1rem;
+  padding: 0px 1rem 0px 1rem;
+}
+
+#workspaces button.active {
+  color: @sky;
+  border-radius: 1rem;
+}
+
+#workspaces button:hover {
+  color: @sapphire;
+  border-radius: 1rem;
+}
+
+#custom-music,
+#tray,
+#backlight,
+#clock,
+#cpu,
+#memory,
+#battery,
+#pulseaudio,
+#custom-lock,
+#custom-power {
+  background-color: @base;
+  padding: 2px 8px;
+  margin: 5px 0;
+}
+
+#clock {
+  color: @blue;
+  border-radius: 0px 1rem 1rem 0px;
+  margin-right: 1rem;
+}
+
+#cpu {
+  color: @yellow;
+  border-radius: 1rem;
+  padding: 2px 8px;
+  border-radius: 1rem 0px 0px 1rem;
+}
+
+#memory {
+  color: @yellow;
+  margin-right: 1rem;
+  border-radius: 0px 1rem 1rem 0px;
+}
+
+#pulseaudio {
+  color: @maroon;
+  border-radius: 1rem 0px 0px 1rem;
+  margin-left: 1rem;
+}
+
+#custom-music {
+  color: @mauve;
+  border-radius: 1rem;
+}
+
+#custom-lock {
+  border-radius: 1rem 0px 0px 1rem;
+  color: @lavender;
+}
+
+#custom-power {
+  margin-right: 1rem;
+  border-radius: 0px 1rem 1rem 0px;
+  color: @red;
+}
+
+#tray {
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
